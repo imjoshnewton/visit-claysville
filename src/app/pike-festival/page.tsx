@@ -20,8 +20,8 @@ export default function PikeFestivalPage() {
         kicker="Memorial Day Weekend · May 23–25, 2026"
       />
 
-      <section style={{ padding: "80px 80px", background: "var(--paper)" }}>
-        <div className="grid" style={{ gridTemplateColumns: "1fr 1.5fr", gap: 80 }}>
+      <section style={{ background: "var(--paper)" }}>
+        <div className="section-inner grid" style={{ gridTemplateColumns: "1fr 1.5fr", gap: 80, paddingTop: 80, paddingBottom: 80 }}>
           <div className="eyebrow text-brick pt-2">About the festival</div>
           <p
             className="m-0"
@@ -38,6 +38,7 @@ export default function PikeFestivalPage() {
           </p>
         </div>
       </section>
+
 
       <PikeSchedule />
 

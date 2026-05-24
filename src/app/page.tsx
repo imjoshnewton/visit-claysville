@@ -15,8 +15,10 @@ export default function Home() {
       <Marquee />
       <Categories />
       <HistoryIntro />
-      <div style={{ padding: "0 80px 80px", background: "var(--paper)" }}>
-        <Timeline />
+      <div style={{ background: "var(--paper)" }}>
+        <div className="section-inner" style={{ paddingBottom: 80 }}>
+          <Timeline />
+        </div>
       </div>
       <EventBoard />
       <McGuffey />
