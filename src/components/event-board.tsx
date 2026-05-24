@@ -43,9 +43,9 @@ export function EventBoard() {
   const cd = useCountdown(featured.date);
 
   return (
-    <section id="events" className="relative overflow-hidden" style={{ background: "var(--ink)", color: "var(--paper)" }}>
-      <div className="section-inner" style={{ paddingTop: 64, paddingBottom: 64 }}>
-        <div className="absolute" style={{ top: 32, right: 40, transform: "rotate(8deg)", border: "2px solid var(--paper)", borderRadius: 999, padding: "8px 16px", fontFamily: "var(--mono)", fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", opacity: 0.7 }}>
+    <section id="events" style={{ background: "var(--ink)", color: "var(--paper)" }}>
+      <div className="section-inner relative overflow-hidden" style={{ paddingTop: 64, paddingBottom: 64 }}>
+        <div className="absolute" style={{ top: 32, right: 80, transform: "rotate(8deg)", border: "2px solid var(--paper)", borderRadius: 999, padding: "8px 16px", fontFamily: "var(--mono)", fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase", opacity: 0.7 }}>
           Posted · {new Date().toLocaleDateString("en-US", { month: "short", day: "numeric" })}
         </div>
 
